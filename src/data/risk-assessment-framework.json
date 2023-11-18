@@ -3,141 +3,147 @@
     "financial": {
       "severe": {
         "description": "Greater than $500k loss.",
-        "rank": 5
+        "index": 4
       },
       "major": {
         "description": "Between $350k and $500k loss.",
-        "rank": 4
+        "index": 3
       },
       "moderate": {
         "description": "Between $100k and $350k loss.",
-        "rank": 3
+        "index": 2
       },
       "minor": {
         "description": "Between $30k and $100k loss.",
-        "rank": 2
+        "index": 1
       },
       "insignificant": {
         "description": "Less than $30k loss.",
-        "rank": 1
+        "index": 0
       }
     },
     "reputation": {
       "severe": {
         "description": "Sustained adverse media attention, series of national articles/stories focussed on Sharesies, or international exposure, resulting in substantial long term damage (measurable adverse impact on the Sharesies brand). Significant increase of formal complaints (x10) with the regulator. Significant increase in customer complaints (x 10 per day) over multiple days. Bcorp status is jeopordised and actions work against climate change commitments.",
-        "rank": 5
+        "index": 4
       },
       "major": {
         "description": "Sustained adverse media attention and/or substantial long term damage (multiple nationally published articles/stories strongly critical of Sharesies creating substantial negative formal and/or social media commentary). Large increase in formal complaints (x4) to the regulator. Large increase in customer complaints (x4 per day) over multiple days. Bcorp score may be materially reduced and actions are not aligned with climate change commitments",
-        "rank": 4
+        "index": 3
       },
       "moderate": {
         "description": "Adverse media attention and/or substantial medium term damage (one national article/story strongly critical of Sharesies). Increase in customer complaints (x 3 per day) Bcorp score may be reduced and actions are perceived to be misaligned with climate change commitments",
-        "rank": 3
+        "index": 2
       },
       "minor": {
         "description": "Limited media attention and/or some short term damage to the brand (one Sharesies specific regional article/story, or critical mention of Sharesies in a national article/story, with limited impact). Measurable increase in customer complaints (x1 per day) and/or multiple complaints to industry complaints body. Bcorp score may be impacted ",
-        "rank": 2
+        "index": 1
       },
       "insignificant": {
         "description": "Little or no publicity, minor short term damage (no formal media, some social media reaction). Marginal increase in customer complaints.  Managed at BAU level.",
-        "rank": 1
+        "index": 0
       }
     },
     "regulatory": {
       "severe": {
         "description": "Regulatory intervention / enforcement potentially including restrictions placed upon our licence or activities. Formal warning or condition/agreement from the regulator. Public warning.",
-        "rank": 5
+        "index": 4
       },
       "major": {
         "description": "Regulatory escalation leading to formal discussion. Breach from staff in multiple areas i.e. systemic failure. Requirement for public disclosure.",
-        "rank": 4
+        "index": 3
       },
       "moderate": {
         "description": "Breach of regulatory requirements affecting 100 or more customers. Breach from staff in multiple areas i.e. systemic. Informal warning from regulator.",
-        "rank": 3
+        "index": 2
       },
       "minor": {
         "description": "Breach of regulation where corrective action needed, with less than 100 customers impacted. Notification to regulator.",
-        "rank": 2
+        "index": 1
       },
       "insignificant": {
         "description": "Breach one person or team i.e. not systemic.",
-        "rank": 1
+        "index": 0
       }
     },
     "resilience": {
       "severe": {
         "description": "Disruption of key functions  (>2 days). Very difficult to recover (requires additional external resource) Tier one business or customer service is unavailable or degraded with no workaround available. Irrecoverable loss of critical data.",
-        "rank": 5
+        "index": 4
       },
       "major": {
         "description": "Determinable disruption of customer service <2 days. Significant disruption across the business. Critical systems/buildings are unavailable to a significant number of end users for an extended period of time. Tier one business or customer service is unavailable or degraded with no workaround available. High customer impact (10,000+ customers).  Irrecoverable loss of operational/customer data.",
-        "rank": 4
+        "index": 3
       },
       "moderate": {
         "description": "Minor delays (2 - 6 business hours above normal SLA) and impairment of key functions or unavailability of building(s). Recovery requiring prior planning and/or manual workarounds.  Tier two business is degraded, an isolated incident. Low customer impact (less than 5000 customers). Some operational data loss with, no loss of critical/customer data.",
-        "rank": 3
+        "index": 2
       },
       "minor": {
         "description": "Minor delays (6 - 24 business hours above normal SLA) and impairment of key functions. Recovery requiring prior planning and/or manual workarounds.  Tier two business is degraded, an isolated incident. Low customer impact (less than 3000 customers). Some operational data loss with, no loss of critical/customer data.",
-        "rank": 2
+        "index": 1
       },
       "insignificant": {
         "description": "Minor delays (2 - 6 business hours above normal SLA) and impairment of key functions or unavailability of building(s). Recovery requiring prior planning and/or manual workarounds.  Tier two business is degraded, an isolated incident. Low customer impact (less than 500 customers) No loss of operational data.",
-        "rank": 1
+        "index": 0
       }
     },
     "people": {
       "severe": {
         "description": "Death, multiple notifiable injuries, resulting in severe disabling injuries. Notifiable event with the potential to result in death, multiple notifiable injuries, resulting in severe disabling injuries. Significant adverse impact to multiple teams in multiple line of business.",
-        "rank": 5
+        "index": 4
       },
       "major": {
         "description": "Notifiable injury, admission to hospital. Notifiable event with the potential to result in notifiable injury, admission to hospital. Significant adverse impact to our people.",
-        "rank": 4
+        "index": 3
       },
       "moderate": {
         "description": "Some impact to our people (disruption to more than one team within one line of business). Injuries requiring medical (outpatient) treatment. Elevated levels of stress to < 10 persons requiring out of team intervention.",
-        "rank": 3
+        "index": 2
       },
       "minor": {
         "description": "Minimal impact to our people (disruption limited to one team/less than 10 employees). Minor injuries requiring first aid (cuts and bruises etc.). Moderate stress to <20 persons and/or across <2 teams.",
-        "rank": 2
+        "index": 1
       },
       "insignificant": {
         "description": "Little to no impact. Moderate stress to a one or a few persons.",
-        "rank": 1
+        "index": 0
       }
     }
   },
   "likelihood": {
     "almost-certain": {
       "title": "Almost Certain",
-      "rank": 5,
+      "index": 4,
       "description": "The risk is almost certain to occur in the next 12 months, i.e. 95%."
     },
     "likely": {
       "title": "Likely",
-      "rank": 4,
+      "index": 3,
       "description": "The risk will probably occur in the next 12 months, i.e. > 70%."
     },
     "possible": {
       "title": "Possible",
-      "rank": 3,
+      "index": 2,
       "description": "The risk might occur in the next 12 months, i.e. 30% - 70%"
     },
     "unlikely": {
       "title": "Unlikely",
-      "rank": 2,
+      "index": 1,
       "description": "The risk will probably not occur in the next 12 months, i.e. < 30%"
     },
     "rare": {
       "title": "Rare",
-      "rank": 1,
+      "index": 0,
       "description": "The risk may only occur in exceptional circumstances, i.e. < 5%"
     }
   },
-  "rating": {},
+  "ratings": [
+    ["Low (1.5)", "Low (3)", "Medium (6)", "Medium (9)", " High (16.5)"],
+    ["Low (2)", "Low (4)", "Medium (8)", "High (12)", "High (22)"],
+    ["Low (3)", "Medium (6)", "High (12)", "High (18)", "Extreme (33)"],
+    ["Low (4)", "Medium (8)", "High (16)", "Extreme (24)", "Extreme (44)"],
+    ["Medium (5.5)", "High (11)", "High (22)", "Extreme (33)", "Extreme (60.5)"]
+  ],
   "governance": {}
 }

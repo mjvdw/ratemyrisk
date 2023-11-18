@@ -145,5 +145,10 @@
     ["Low (4)", "Medium (8)", "High (16)", "Extreme (24)", "Extreme (44)"],
     ["Medium (5.5)", "High (11)", "High (22)", "Extreme (33)", "Extreme (60.5)"]
   ],
-  "governance": {}
+  "governance": {
+    "low": "Accepted by Product Manager or Manager equivalent. Noted through to risk-group Slack channel and business line leads.",
+    "medium": "Accepted by ELT member and/or leads. Endorsed by business line leads. Noted to MRCC.",
+    "high": "Accepted by MRCC quorum & 1 of the 3EO. Endorsed by ELT member. Noted to Board Audit & Risk Committee.",
+    "extreme": "Accepted by Sharesies Board Audit & Risk Committee. Endorsed by MRCC. Noted to 3EO."
+  }
 }
